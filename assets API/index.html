@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Conversor de Monedas</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div id="app">
+        <h1>Conversor de Monedas</h1>
+        <input type="number" id="amount" placeholder="Ingrese monto en pesos chilenos" />
+        <select id="currency">
+            <option value="dolar">Dólar</option>
+            <option value="euro">Euro</option>
+        </select>
+        <button id="convert">Convertir</button>
+        <div id="result"></div>
+        <canvas id="chart" width="400" height="200"></canvas>
+    </div>
+    <script src="./script/app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</body>
+</html>
